@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Parser</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<div class="container ">
+    <div class="row">
+        <div class="col-md-6 centered">
+            <div class="form_main">
+                <h4 class="heading"><strong>Parse video </strong> quickly<span></span></h4>
+                <div class="form">
+                    <form action="/parse" method="post" id="parseForm" name="parseForm">
+                        <input type="text" required="" placeholder="Put youtube url here" value="" name="url"
+                               class="text-input">
+                        <input type="submit" value="submit" name="submit" class="submit-bottom">
+                    </form>
+                </div>
+                <div class="video-content">
+                    <h3 class="video-content-name"></h3>
+                    <p class="video-content-author"></p>
+                    <p class="video-content-tip">Click on the picture for watching</p>
+                    <img class="video-content-preview centered" src="" alt="video-preview">
+                    <div class="video-content-frame centered"></div>
+                </div>
+            </div>
+        </div
+    </div>
+</div>
+
+<!-- !!! In real project SHOULD use npm with Gulp or WebPack for assets -->
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
