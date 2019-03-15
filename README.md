@@ -9,9 +9,10 @@ PHP >= 7.1
 Installation
 ------------
 
-You can get this project using [composer](https://getcomposer.org/):
+You can get this project using git:
 
-    composer create-project nbcomrade/video-parser
+    git clone {github_link}
+    composer install
 
 Than run a php server :
 ```bash
